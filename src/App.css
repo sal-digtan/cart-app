@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Red Hat Text", sans-serif;
+    src: url('./assets/fonts/static/RedHatText-Regular.ttf');
+}
+
+body {
+    font-family: "Red Hat Text", sans-serif !important;
+    background-color: 	#f4edeb !important;
+}
+
+.cartbtn {
+    width: 160px;
+    border-radius: 50px !important;
+    background-color: #fff;
+    height: 40px;
+    color: #000;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    border: 1px solid #000 !important;
+}
+
+.cartbtn:hover {
+    color: hsl(14, 86%, 42%);
+    border: 1px solid hsl(14, 86%, 42%) !important;
+}
